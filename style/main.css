@@ -1,0 +1,30 @@
+.textError {
+  display: inline-block;
+  color: red;
+  font-size: 32px;
+  border: 3px solid red;
+  border-radius: 8px;
+}
+.form{
+  display: flex;
+  justify-content: center;
+}
+.input ~ .button {
+  margin-left: 30px;
+}
+.input, .button {
+  border-radius: 8px;
+  border: 2px solid aqua;
+}
+.button {
+  background-color: transparent;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: aqua;
+  border-color: blue;
+}
+.input:hover {
+  background-color: aqua;
+  border-color: blue;
+}
